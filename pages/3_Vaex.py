@@ -92,10 +92,6 @@ if qselect[:3] == "5 -":
 
     st.write("'film' tablosunda olup 'inventory' tablosunda olmayan film sayısı:", not_in_inventory)
 
-
-elif qselect[:3] == "12 ":
-    st.subheader("12. Soruda Uygulanan Adımlar")
-
 elif qselect[:3] == "19 ":
     st.subheader("19. Soruda Uygulanan Adımlar")
 
@@ -136,11 +132,6 @@ elif qselect[:3] == "19 ":
     """)
     groupped = merged.groupby(["first_name", "last_name"]).agg({"amount": "sum"}).sort(by="first_name")
     st.dataframe(groupped.to_pandas_df(), hide_index=True)
-
-
-elif qselect[:3] == "26 ":
-    st.subheader("26. Soruda Uygulanan Adımlar")
-    st.write("26. soru")
 
 elif qselect[:3] == "33 ":
     st.subheader("33. Soruda Uygulanan Adımlar")
@@ -587,12 +578,6 @@ elif qselect[:3] == "82 ":
     result = filtered.groupby(["store_id", "name"]).agg({"rental_id": "count"})
     sorted_result = result.sort(by="rental_id", ascending=False)
     st.dataframe(sorted_result.to_pandas_df(), hide_index=True)
-
-
-
-elif qselect[:3] == "89 ":
-    st.subheader("89. Soruda Uygulanan Adımlar")
-
 
 
 elif qselect[:3] == "96 ":
