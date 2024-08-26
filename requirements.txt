@@ -1,0 +1,12 @@
+streamlit
+pillow
+dask
+dask[dataframe]
+polars
+sqlite3
+modin
+koalas
+pandas
+sqlalchemy
+vaex
+ray
