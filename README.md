@@ -4,4 +4,4 @@ Bu proje, Streamlit arayüzü üzerinden Pandas, Dask, Vaex, Polar ve Modin küt
 ## Kurulum
 **Gerekli Kütüphaneleri Yükle:** "pip install -r requirements.txt"
 
-**Çalıştır::** "streamlit run Ana_Sayfa.py"
+**Çalıştır:** "streamlit run Ana_Sayfa.py"
